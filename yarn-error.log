@@ -1,0 +1,47 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\louis_work\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Users\louis_work\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Inprise\vbroker\bin;C:\PROGRA~2\Borland\CBUILD~1\Projects\Bpl;C:\PROGRA~2\Borland\CBUILD~1\Bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\louis_work\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\louis_work\AppData\Local\Programs\Python\Python36-32\;C:\Users\louis_work\AppData\Local\Microsoft\WindowsApps;;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\louis_work\AppData\Roaming\npm
+
+Yarn version: 
+  1.0.0
+
+Node version: 
+  6.11.3
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "react-server",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "body-parser": "~1.18.2",
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.6.9",
+      "express": "~4.15.5",
+      "jade": "~1.11.0",
+      "morgan": "~1.9.0",
+      "serve-favicon": "~2.4.5",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  SyntaxError: C:\Users\louis_work\react_server\package.json: Unexpected token } in JSON at position 329
+      at Object.parse (native)
+      at C:\Users\louis_work\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:797:57
+      at next (native)
+      at step (C:\Users\louis_work\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:92:30)
+      at C:\Users\louis_work\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:103:13
